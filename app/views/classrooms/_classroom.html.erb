@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 <p>
   <%= classroom.course_name %>
   <%= classroom.semester %>
 </p>
+=======
+<ol>
+  <% classroom.students.each do |student| %>
+    <li><%= student.name %></li>
+  <% end %>
+</ol>
+>>>>>>> 060118eee08d1030d4ee4b189c10bc6228ea8df8
